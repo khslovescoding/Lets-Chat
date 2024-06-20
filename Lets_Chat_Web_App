@@ -1,0 +1,20 @@
+
+var firebaseConfig ={
+    apiKey: "AIzaSyBfnaGQeROxOrIDm5TDucLsrFvhupMRe60",
+    authDomian: "classtest-64dd5a.firebaseapp.com",
+    databaseURL: "https://classtest-64d5a.firebaseio.com",
+    projectId : "classtest-64d5a",
+    storageBucket:"classtest-64d5a.appspot.com",
+    messagingSenderId:"33276442296",
+    appId:"1:33276442296:web:85f5e96e9a2a53e515264d"
+};
+
+firebaseConfig.initializeApp(firebaseConfig);
+
+function getData() { firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML})
+      Group_name = childKey;
+getData();
+
+}
+
+
